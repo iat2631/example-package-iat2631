@@ -11,3 +11,11 @@ dependencies = ["numpy"]
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+# pyproject.toml 
+[project] 
+dynamic = ["version"] 
+
+[tool.hatch]
+version.path = "src/example_package_YOUR_USERNAME_HERE/__init__.py"
+
