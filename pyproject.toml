@@ -8,6 +8,7 @@ build-backend = "hatchling.build"
 name = "example_package_iat2631" 
 version = "0.1.0" 
 dependencies = ["numpy"]
+dynamic = ["version"]
 
 [project.optional-dependencies]
 test = ["pytest"]
@@ -16,5 +17,5 @@ test = ["pytest"]
 dynamic = ["version"] 
 
 [tool.hatch]
-version.path = "src/example_package_YOUR_USERNAME_HERE/__init__.py"
+version.path = "src/example_package_iat2631/__init__.py"
 
