@@ -13,7 +13,6 @@ dependencies = ["numpy"]
 test = ["pytest"]
 
 # pyproject.toml 
-[project] 
 dynamic = ["version"] 
 
 [tool.hatch]
